@@ -1,7 +1,7 @@
 # Pose Detection With MediaPipe
 
 This project detects human poses in a  video using **MediaPipe Pose** and **OpenCV**. It processes each frame, detects key landmarks, and visualizes body movements.
-## Gif
+## Output
 
 <p align="center">
   <img src="https://github.com/nargesyaghoubi/pose_detection/blob/main/video/pose.gif" />
@@ -19,7 +19,7 @@ This project detects human poses in a  video using **MediaPipe Pose** and **Open
 $ git clone https://github.com/nargesyaghoubi/pose_detection
 ```
 
-2. Install Required Libraries
+2. Install required libraries
 ```
 $ pip install -r requirements.txt
 ```
@@ -27,7 +27,7 @@ $ pip install -r requirements.txt
 
 
 ## Notes
----
+
 - The script uses MediaPipe's Pose model for detecting landmarks.
 - If you want real-time pose detection from a webcam, replace ``` cap = cv2.VideoCapture("yoga_pose.mp4") ``` with ``` cap = cv2.VideoCapture(0) ```.
 
