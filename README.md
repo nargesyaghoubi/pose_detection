@@ -1,4 +1,4 @@
-# Pose Detection With MediaPipe
+# Pose Detection With MediaPipe and OpenCV
 
 This project detects human poses in a  video using **MediaPipe Pose** and **OpenCV**. It processes each frame, detects key landmarks, and visualizes body movements.
 ## Output
@@ -14,14 +14,14 @@ This project detects human poses in a  video using **MediaPipe Pose** and **Open
 ✔️ Displays the processed video with detected poses  
 
 ## Usage
-1. Clone the repo
+1. Clone the repository:
 ```
-$ git clone https://github.com/nargesyaghoubi/pose_detection
+git clone https://github.com/nargesyaghoubi/pose_detection
 ```
 
-2. Install required libraries
+2. Install required libraries:
 ```
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 
@@ -39,5 +39,4 @@ This project is licensed under the MIT License . see the [LICENSE](LICENSE) file
 For any inquiries, please contact:
 - nargersyaghoubi2001@gmail.com
 ## Link
-### Narges Yaghoubi
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/narges-yaghoubi-656a28243/)
