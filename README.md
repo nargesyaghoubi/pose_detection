@@ -3,7 +3,7 @@ This project performs human pose detection in video streams using the MediaPipe 
 ## Output
 
 <p align="center">
-  <img src="https://github.com/nargesyaghoubi/pose_detection/blob/main/video/pose.gif" />
+  <img src="https://github.com/nargesyaghoubi/pose_detection/blob/main/video/pose.gif" width="200px" hight="300px" />
 </p>
 
 
@@ -14,6 +14,13 @@ This project performs human pose detection in video streams using the MediaPipe 
 -  Draws pose skeleton with customizable colors
 -  Outputs a refined video with accurate pose visualization
 
+## Requirements
+- OpenCV
+- MediaPipe
+- NumPy
+- SciPy
+
+  
 ## Usage
 1. Clone the repository:
 ```
@@ -27,17 +34,15 @@ pip install -r requirements.txt
 
 
 
-## Notes
-
-- The script uses MediaPipe's Pose model for detecting landmarks.
-- If you want real-time pose detection from a webcam, replace ``` cap = cv2.VideoCapture("yoga_pose.mp4") ``` with ``` cap = cv2.VideoCapture(0) ```.
-
-
 ## License  
 This project is licensed under the MIT License . see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 For any inquiries, please contact:
 - nargersyaghoubi2001@gmail.com
-## Link
+## Links
+
+### Narges Yaghoubi
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://nargesyaghoubi-ygh.github.io/My-portfolio/)
+
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/narges-yaghoubi-656a28243/)
