@@ -1,6 +1,5 @@
-# Pose Detection With MediaPipe and OpenCV
-
-This project detects human poses in a  video using **MediaPipe Pose** and **OpenCV**. It processes each frame, detects key landmarks, and visualizes body movements.
+# Pose Detection using MediaPipe Model with Kalman & Butterworth Filters
+This project performs human pose detection in video streams using the MediaPipe Pose model. The detected landmarks are refined with Kalman and Butterworth filters to reduce noise, resulting in smoother and more accurate visualization of body movements.
 ## Output
 
 <p align="center">
@@ -9,9 +8,11 @@ This project detects human poses in a  video using **MediaPipe Pose** and **Open
 
 
  ## Features
-✔️ Processes video frames to detect body landmarks  
-✔️ Draws pose connections with customizable colors  
-✔️ Displays the processed video with detected poses  
+✔️ Detects body landmarks from video using MediaPipe Pose
+✔️ Applies Kalman and Butterworth filters for smoother and more stable tracking
+✔️ Handles high-speed videos with reliable pose detection
+✔️ Draws pose skeleton with customizable colors
+✔️ Outputs a refined video with accurate pose visualization
 
 ## Usage
 1. Clone the repository:
