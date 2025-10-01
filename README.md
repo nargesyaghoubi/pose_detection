@@ -8,11 +8,11 @@ This project performs human pose detection in video streams using the MediaPipe 
 
 
  ## Features
-✔️ Detects body landmarks from video using MediaPipe Pose
-✔️ Applies Kalman and Butterworth filters for smoother and more stable tracking
-✔️ Handles high-speed videos with reliable pose detection
-✔️ Draws pose skeleton with customizable colors
-✔️ Outputs a refined video with accurate pose visualization
+-  Detects body landmarks from video using MediaPipe Pose
+-  Applies Kalman and Butterworth filters for smoother and more stable tracking
+-  Handles high-speed videos with reliable pose detection
+-  Draws pose skeleton with customizable colors
+-  Outputs a refined video with accurate pose visualization
 
 ## Usage
 1. Clone the repository:
